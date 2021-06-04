@@ -6,12 +6,10 @@ The project is helpful to start your next project, as it provides a lot of the c
 
 ### Features
 
-- Optimized for serverless deployment to CDN edge locations (Cloudflare Workers)
-- HTML page rendering (SSR) at CDN edge locations, all ~100 points on Lighthouse
-- Hot module replacement during local development using React Refetch
-- Pre-configured with CSS-in-JS styling using Emotion.js
+- TypeScript Included.
+- Authentication.
+- Pre-configured with CSS-in-JS styling.
 - Pre-configured with code quality tools: ESLint, Prettier, TypeScript, Jest, etc.
-- Pre-configured with VSCode code snippets and other VSCode settings
 
 ### Directory Structure
 
