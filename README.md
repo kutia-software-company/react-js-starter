@@ -8,6 +8,7 @@ The project is helpful to start your next project, as it provides a lot of the c
 
 - TypeScript Included.
 - Authentication.
+- Base pages for Forgot Password, Reset Password, Home, Login, Register, Profile & 404.
 - Pre-configured with CSS-in-JS styling.
 - Pre-configured with code quality tools: ESLint, Prettier, TypeScript, Jest, etc.
 
