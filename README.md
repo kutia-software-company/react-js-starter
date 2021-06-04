@@ -24,7 +24,7 @@ The project is helpful to start your next project, as it provides a lot of the c
 | **src/components**                | React components including shared (common) components. |
 | **src/lib**                       | Utility functions. |
 | **src/pages**                     | React views - screen components. |
-| **src/partials**                  | React views - screen components. |
+| **src/partials**                  | Partial components (header, footer etc). |
 | **src/routes**                    | Application routes. |
 | **src/styles**                    | App style including css & scss. |
 | **src/templates**                 | Templates for components generated with `generate:component`. |
