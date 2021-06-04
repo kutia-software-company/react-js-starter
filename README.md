@@ -27,7 +27,7 @@ The project is helpful to start your next project, as it provides a lot of the c
 | **src/partials**                  | React views - screen components. |
 | **src/routes**                    | Application routes. |
 | **src/styles**                    | App style including css & scss. |
-| **src/templates**                 | App theme including colors, fonts, paddings, etc. |
+| **src/templates**                 | Templates for components generated with `generate:component`. |
 
 ### Requirements
 
