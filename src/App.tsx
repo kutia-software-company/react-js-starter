@@ -5,8 +5,8 @@ import { AuthContextProvider } from "./lib/context/AuthContext/AuthContextProvid
 import { ConfirmationContextProvider } from "./lib/context/ConfirmationContext/ConfirmationContextProvider"
 
 //Partials
-import { Header } from "./partials/Header/Header"
-import { Footer } from "./partials/Footer/Footer"
+import { Header } from "./components/partials/Header/Header"
+import { Footer } from "./components/partials/Footer/Footer"
 import { Routes } from "./routes/Routes"
 
 //Styles
