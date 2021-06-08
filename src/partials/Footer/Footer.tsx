@@ -1,8 +1,8 @@
-import React from 'react';
+import React from "react"
 
 //styles
-import './Footer.scss';
+import "./Footer.scss"
 
 export const Footer = () => {
-  return <div className="Footer"></div>;
-};
+  return <div className="Footer"></div>
+}

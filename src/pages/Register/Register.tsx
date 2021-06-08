@@ -1,9 +1,9 @@
-import React from "react";
-import { RouteComponentProps } from "react-router-dom";
-import { RegisterForm } from "../../components/user/RegisterForm/RegisterForm";
+import React from "react"
+import { RouteComponentProps } from "react-router-dom"
+import { RegisterForm } from "../../components/user/RegisterForm/RegisterForm"
 
 //styles
-import "./Register.scss";
+import "./Register.scss"
 
 interface Props {}
 
@@ -12,5 +12,5 @@ export const Register = (props: RouteComponentProps<Props>) => {
     <div className="Register">
       <RegisterForm />
     </div>
-  );
-};
+  )
+}

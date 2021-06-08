@@ -1,17 +1,17 @@
-import React from 'react';
+import React from "react"
 
 //components
-import { Modal as ModalRS } from 'reactstrap';
+import { Modal as ModalRS } from "reactstrap"
 
 //styles
-import './Modal.scss';
+import "./Modal.scss"
 
 interface Props {
-  isOpen: boolean;
-  children: React.ReactChild;
-  title?: string;
-  big?: boolean;
-  toggle: () => void;
+  isOpen: boolean
+  children: React.ReactChild
+  title?: string
+  big?: boolean
+  toggle: () => void
 }
 
 export const Modal = (props: Props) => {
@@ -20,5 +20,5 @@ export const Modal = (props: Props) => {
       {props.title && <h3>{props.title}</h3>}
       {props.children}
     </ModalRS>
-  );
-};
+  )
+}

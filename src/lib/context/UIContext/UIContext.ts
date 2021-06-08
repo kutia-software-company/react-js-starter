@@ -1,9 +1,9 @@
-import React, { useContext } from "react";
+import React, { useContext } from "react"
 
 export interface UIContextType {}
 
-const UIContextValues: UIContextType = {};
+const UIContextValues: UIContextType = {}
 
-export const UIContext = React.createContext<UIContextType>(UIContextValues);
+export const UIContext = React.createContext<UIContextType>(UIContextValues)
 
-export const useUIContext = () => useContext(UIContext);
+export const useUIContext = () => useContext(UIContext)
