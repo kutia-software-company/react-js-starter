@@ -1,7 +1,7 @@
-import React from 'react';
+import React from "react"
 
 //styles
-import './Page404.scss';
+import "./Page404.scss"
 
 export const Page404 = () => {
   return (
@@ -10,5 +10,5 @@ export const Page404 = () => {
         Nothing found <b>404</b>!
       </h1>
     </div>
-  );
-};
+  )
+}

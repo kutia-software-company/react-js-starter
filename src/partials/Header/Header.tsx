@@ -1,8 +1,8 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import React from "react"
+import { Link } from "react-router-dom"
 
 //styles
-import "./Header.scss";
+import "./Header.scss"
 
 export const Header = () => {
   return (
@@ -10,5 +10,5 @@ export const Header = () => {
       <Link to="/login">login</Link>
       <Link to="/register">register</Link>
     </div>
-  );
-};
+  )
+}

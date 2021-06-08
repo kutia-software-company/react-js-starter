@@ -1,5 +1,5 @@
-import React from "react";
-import { useRegisterFormik } from "../../../lib/hooks/formik/useRegisterFormik";
+import React from "react"
+import { useRegisterFormik } from "../../../lib/hooks/formik/useRegisterFormik"
 
 //Components
 import {
@@ -10,24 +10,24 @@ import {
   Input,
   Form,
   FormFeedback,
-  Button,
-} from "reactstrap";
+  Button
+} from "reactstrap"
 
 //Style
-import "./RegisterForm.scss";
+import "./RegisterForm.scss"
 
 export interface RegisterFields {
-  firstName: string;
-  lastName: string;
-  dateOfBirth: string;
-  email: string;
-  password: string;
+  firstName: string
+  lastName: string
+  dateOfBirth: string
+  email: string
+  password: string
 }
 
 export const RegisterForm = () => {
   const formik = useRegisterFormik({
-    onSubmit: async (values, formikHelpers) => {},
-  });
+    onSubmit: async (values, formikHelpers) => {}
+  })
   return (
     <div className="RegisterForm">
       <Form onSubmit={formik.handleSubmit}>
@@ -118,5 +118,5 @@ export const RegisterForm = () => {
         </Row>
       </Form>
     </div>
-  );
-};
+  )
+}

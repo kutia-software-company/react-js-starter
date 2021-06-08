@@ -42,10 +42,10 @@
     "generate:images": "node scripts/generate-images.js",
     "generate:component": "npx generate-react-cli component",
     "generate:page": "npx generate-react-cli component --type=page",
-    "update": "npx npm-check-updates -u"
-  },
-  "eslintConfig": {
-    "extends": "react-app"
+    "update": "npx npm-check-updates -u",
+    "code:format": "prettier --write \"src/**/*.{ts,tsx,js,css,scss,html}\"",
+    "code:check": "prettier --check \"src/**/*.{ts,tsx,js,css,scss,html}\"",
+    "code:format:specific-file": "prettier --write "
   },
   "browserslist": {
     "production": [
@@ -64,6 +64,6 @@
     "@types/node-sass": "^4.11.1",
     "@types/reactstrap": "^8.7.1",
     "@types/yup": "^0.29.11",
-    "prettier": "^2.2.1"
+    "prettier": "2.3.1"
   }
 }

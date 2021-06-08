@@ -1,10 +1,10 @@
-import React from 'react';
+import React from "react"
 
 //styles
-import './TemplateName.scss';
+import "./TemplateName.scss"
 
 interface Props {}
 
 export const TemplateName = (props: Props) => {
-  return <div className="TemplateName"></div>;
-};
+  return <div className="TemplateName"></div>
+}

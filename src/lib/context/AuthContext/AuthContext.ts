@@ -23,8 +23,7 @@ const AuthContextValues: AuthContextType = {
   logout: voidFunction
 }
 
-export const AuthContext = React.createContext<AuthContextType>(
-  AuthContextValues
-)
+export const AuthContext =
+  React.createContext<AuthContextType>(AuthContextValues)
 
 export const useAuthContext = () => useContext(AuthContext)

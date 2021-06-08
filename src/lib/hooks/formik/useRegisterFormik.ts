@@ -1,13 +1,13 @@
-import { useFormik, FormikHelpers } from "formik";
-import * as Yup from "yup";
-import { RegisterFields } from "../../../components/user/RegisterForm/RegisterForm";
+import { useFormik, FormikHelpers } from "formik"
+import * as Yup from "yup"
+import { RegisterFields } from "../../../components/user/RegisterForm/RegisterForm"
 
 interface UseRegisterFormOptions {
-  initialValues?: RegisterFields;
+  initialValues?: RegisterFields
   onSubmit: (
     values: RegisterFields,
     formikHelpers: FormikHelpers<RegisterFields>
-  ) => Promise<any>;
+  ) => Promise<any>
 }
 
 export const useRegisterFormik = (options: UseRegisterFormOptions) => {
@@ -20,8 +20,8 @@ export const useRegisterFormik = (options: UseRegisterFormOptions) => {
       .required("Email is required"),
     password: Yup.string()
       .min(6, "Password should be more than 6 letters")
-      .required("Password is required"),
-  });
+      .required("Password is required")
+  })
 
   return useFormik({
     initialValues: {
@@ -29,15 +29,15 @@ export const useRegisterFormik = (options: UseRegisterFormOptions) => {
       lastName: "",
       dateOfBirth: "",
       email: "",
-      password: "",
+      password: ""
     },
     validateOnBlur: true,
     validateOnChange: true,
     validationSchema: RegisterSchema,
     onSubmit: async (values, formikHelpers) => {
-      await options.onSubmit(values, formikHelpers);
-    },
-  });
-};
+      await options.onSubmit(values, formikHelpers)
+    }
+  })
+}
 
-export type RegisterFormik = ReturnType<typeof useRegisterFormik>;
+export type RegisterFormik = ReturnType<typeof useRegisterFormik>

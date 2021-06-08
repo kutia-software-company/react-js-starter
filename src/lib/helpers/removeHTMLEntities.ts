@@ -1,6 +1,6 @@
 export const removeHTMLEntities = (value: string) => {
   if (!value) {
-    return false;
+    return false
   }
 
   const characters: any = {
@@ -15,10 +15,10 @@ export const removeHTMLEntities = (value: string) => {
     "&yen;": "¥",
     "&euro;": "€",
     "&copy;": "©",
-    "&reg;": "®",
-  };
+    "&reg;": "®"
+  }
 
   return value.replace(/&[a-z]{3,5};/g, function (m) {
-    return characters[m];
-  });
-};
+    return characters[m]
+  })
+}
