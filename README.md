@@ -10,7 +10,7 @@ The project is helpful to start your next project, as it provides a lot of the c
 - Authentication.
 - Base pages for Forgot Password, Reset Password, Home, Login, Register, Profile & 404.
 - Pre-configured with CSS-in-JS styling.
-- Pre-configured with code quality tools: ESLint, Prettier, TypeScript, Jest, etc.
+- Pre-configured with code quality tools: Prettier, TypeScript, Jest, etc.
 
 ### Directory Structure
 
@@ -24,7 +24,6 @@ The project is helpful to start your next project, as it provides a lot of the c
 | **src/components**                | React components including shared (common) components. |
 | **src/lib**                       | Utility functions. |
 | **src/pages**                     | React views - screen components. |
-| **src/partials**                  | Partial components (header, footer etc). |
 | **src/routes**                    | Application routes. |
 | **src/styles**                    | App style including css & scss. |
 | **src/templates**                 | Templates for components generated with `generate:component`. |
@@ -53,6 +52,9 @@ The project is helpful to start your next project, as it provides a lot of the c
 - `generate:component`
 - `generate:page`
 - `update`
+- `code:format`
+- `code:check`
+- `code:format:specific-file`
 
 ### Related Projects
 
